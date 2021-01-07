@@ -10,10 +10,17 @@
   </head>
   <body>
     <div class="wrapper" ng-app="fullApp" ng-controller="appCtrl">
-      <div class="text-center mt-3" ng-init="logo = 'images/juracapresso-doctor-logo.png'">
-        <img ng-src="{{logo}}" alt="Juracapresso Doctor logo" height="60">
-      </div>
-      <h6 class="mt-1 mb-3 text-center">One stop shop for your Jura Capresso machine!</h6>
+      <div class="container mb-3">
+        <div class="row justify-content-center">
+          <div class="text-center mt-3 col-12" ng-init="logo = 'images/juracapresso-doctor-logo.png'">
+            <img ng-src="{{logo}}" alt="Juracapresso Doctor logo" height="60">
+          </div>
+          <div class="d-flex">
+              <h6 class="mt-1 mb-0 text-center">One stop shop for your Jura Capresso machine!</h6>
+              <button type="button" name="button" class="float-right">Contact Us</button>
+          </div>
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
       <div class="bg"></div>
       <div class="container">
         <div class="row justify-content-center mb-5">
