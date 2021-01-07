@@ -58,12 +58,20 @@ app.controller('appCtrl', function($scope, $document) {
       altText: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111'
     },
     {
-      title: 'Jura Capresso OEM Cherry D45X Micro Switch. Fix EMPTY GROUNDS/TRAY MISSING error',
+      title: 'Jura Capresso OEM Cherry D45X Micro Switch (for Grounds/Tray Error)',
       price: '8.90',
       description: 'OEM Jura p/n 65676 micro switch (Cherry D45X). If your machine is stuck on "Empty Grounds" or "Tray Missing", then this switch probably is what you need to fix the problem.',
       imageOne: './images/cherry-micro-switch.jpg',
       imageTwo: './images/cherry-micro-switch-2.jpg',
       altText: 'Jura Capresso OEM Cherry D45X Micro Switch. Fix EMPTY GROUNDS/TRAY MISSING error'
+    },
+    {
+      title: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable',
+      price: '5.95',
+      description: 'A Decora insert in white. The insert has been milled to fit most regular size Neutrik XLR and SpeakOn connectors. Suitable mounting hardware (M3 screws and nuts) are included.',
+      imageOne: './images/duplex-decora-insert-single.jpg',
+      imageTwo: './images/duplex-decora-insert-single-2.jpg',
+      altText: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable'
     }
   ];
 });
