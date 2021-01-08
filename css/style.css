@@ -8,11 +8,12 @@ html, body {
 	height: calc(1.5em + .75em + 2px);
 	border: none;
 	border-radius: 0 2px 2px 0;
-	background-color: caramel;
+	background-color: black;
 }
 
 .form-control {
 	border-radius: 2px 0 0 2px;
+	border: 1px solid #000;
 }
 
 h6, p, .card-buy-btn {
