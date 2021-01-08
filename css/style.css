@@ -4,6 +4,17 @@ html, body {
 	text-align: inherit;
 }
 
+.form-btn {
+	height: calc(1.5em + .75em + 2px);
+	border: none;
+	border-radius: 0 2px 2px 0;
+	background-color: caramel;
+}
+
+.form-control {
+	border-radius: 2px 0 0 2px;
+}
+
 h6, p, .card-buy-btn {
   letter-spacing: .5px;
 }
@@ -53,4 +64,6 @@ h2 {
 
 footer {
 	font-size: .9rem;
+	color: #ffffff;
+	background-color: #000000;
 }
