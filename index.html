@@ -21,7 +21,7 @@
               <div class="col-4">
                 <form class="form-inline" action="#">
                   <div class="input-group w-100">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" ng-model="results">
                     <button class="form-btn pl-2 pr-2" type="submit">
                       <i class="bi-search"></i>
                     </button>
@@ -44,7 +44,7 @@
           <div class="col-12">
             <h2 class="text-center mb-5">Products</h2>
             <div class="card-deck">
-              <div class="col-4 d-flex justify-content-center mb-5" ng-repeat="x in productCardInfo">
+              <div class="col-4 d-flex justify-content-center mb-5" ng-repeat="x in productCardInfo | filter:results">
                 <div class="card">
                   <img ng-src="{{x.imageOne}}" alt="{{x.altText}}">
                   <div class="card-body">
