@@ -4,27 +4,35 @@ html, body {
 	text-align: inherit;
 }
 
+a, a:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 button:focus, input:focus, textarea:focus, select:focus {
-	outline: none !important;
 	box-shadow: none !important;
+}
+
+button:focus, input:focus, textarea:focus, select:focus, .form-control {
+	outline: none !important;
 }
 
 .form-btn {
 	height: calc(1.5em + .75em + 2px);
-	border: none;
 	border-radius: 0 5px 5px 0;
+}
+
+.form-btn, footer {
 	background-color: #000000;
 }
 
 .bi-search {
-	color: #ffffff;
 	font-size: 1.1rem;
 }
 
 .form-control {
 	border-radius: 5px 0 0 5px;
-	border: 1px solid #000;
-	outline: none !important;
+	border: 1px solid #000000;
 }
 
 .form-control:focus {
@@ -32,17 +40,27 @@ button:focus, input:focus, textarea:focus, select:focus {
 }
 
 .contact-btn {
-	color: #ffffff;
-	background-color: #F60402;
-	border: none;
 	border-radius: 5px;
-	font-size: .9rem;
 	padding: .5rem 1rem;
+}
+
+.contact-btn, footer {
+	font-size: .9rem;
+}
+
+.contact-btn, .card-buy-btn {
+	background-color: #F60402;
 }
 
 .contact-btn:hover, .form-btn:hover {
 	opacity: .6;
-	transition: .5s ease;
+}
+
+.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover {
+	-webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 h6, p, .card-buy-btn, .contact-btn {
@@ -77,22 +95,19 @@ h2 {
 .card-buy-btn {
   width: 100%;
   border-radius: 10px;
-  border: none;
   padding: .5rem;
-  background-color: #F60402;
-  color: white;
   font-weight: bold;
+}
 
+.card-buy-btn, .contact-btn, .form-btn {
+	border: none;
+}
+
+.card-buy-btn, footer, .contact-btn, .bi-search {
+	color: #ffffff;
 }
 
 .card-buy-btn:hover {
   -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
-  transition: .3s ease;
-}
-
-footer {
-	font-size: .9rem;
-	color: #ffffff;
-	background-color: #000000;
 }
