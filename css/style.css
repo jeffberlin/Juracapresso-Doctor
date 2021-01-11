@@ -70,14 +70,17 @@ h6, p, .card-buy-btn, .contact-btn {
 h2 {
   letter-spacing: 2px;
   font-size: 2.5rem;
+	text-shadow: 1px 1px 2px #000000;
 }
 
-.bg {
+.banner {
   background: url("../images/coffee-bg.png") no-repeat center;
   background-size: cover;
   height: 275px;
   margin-bottom: 4rem;
 }
+
+.intro-banner p
 
 .card {
   -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.30);
@@ -103,7 +106,7 @@ h2 {
 	border: none;
 }
 
-.card-buy-btn, footer, .contact-btn, .bi-search {
+.card-buy-btn, footer, .contact-btn, .bi-search, .intro-banner h2 {
 	color: #ffffff;
 }
 

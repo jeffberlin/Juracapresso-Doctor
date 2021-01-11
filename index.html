@@ -30,15 +30,21 @@
               </div>
               <div class="col-4 text-right">
                 <button type="button" name="button" class="contact-btn">
-                  <a href="">Contact Us</a>
+                  <a href="mailto:">Contact Us</a>
                   </button>
               </div>
             </div> <!-- /.row -->
           </div> <!-- /.container -->
         </section>
       </header>
-          <!-- <h6 class="mt-1 mb-0 mb-3 text-center">One stop shop for your Jura Capresso machine!</h6> -->
-      <div class="bg"></div>
+      <section class="intro-banner container-fluid">
+        <div class="banner row align-items-center">
+          <div class="col-12">
+            <h2 class="text-center">One stop shop for your Juracapresso machine</h2>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="bg"></div> -->
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-12">
@@ -46,14 +52,17 @@
             <div class="card-deck">
               <div class="col-4 d-flex justify-content-center mb-5" ng-repeat="x in productCardInfo | filter:results">
                 <div class="card">
-                  <img ng-src="{{x.imageOne}}" alt="{{x.altText}}">
+                  <a href="#">
+                    <img ng-src="{{x.imageOne}}" alt="{{x.altText}}">
+                  </a>
                   <div class="card-body">
-                    <h5 class="card-title">{{x.title}}</h5>
-                    <p class="card-text"><em>${{x.price}}</em></p>
-                    <!-- <p class="card-text">{{x.description}}</p> -->
+                    <a href="">
+                      <h5 class="card-title">{{x.title}}</h5>
+                      <p class="card-text mb-3"><em>${{x.price}}</em></p>
+                    </a>
                     <button type="button" name="button" class="card-buy-btn">Buy Now</button>
                   </div>
-                </div>
+                </div> <!-- /.card -->
               </div>
             </div> <!-- /.card-deck -->
           </div> <!-- /.col-12 -->
