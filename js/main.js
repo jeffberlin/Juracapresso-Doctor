@@ -3,17 +3,17 @@ app.controller('appCtrl', function($scope, $document) {
   $scope.productCardInfo = [
     {
       title: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
-      price: '10.95',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+      price: '12.95',
+      description: 'A stanless steel tool bit that will open the special oval head screws used in most Jura, Jura Capresso, Nespresso, Krups and AEG machines. This bit is manufactured from 416 Stainless Steel. 416 SS has the characteristic of being magnetic and stays put in a driver handle with magnet unlike our 303 SS tool.',
       imageOne: './images/service-tool-bit.jpg',
       imageTwo: './images/service-tool-bit-2.jpg',
       altText: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
-      productid: ''
+      productid: '39902'
     },
     {
       title: 'Jura Nespresso Professional Shop Tool Kit - Oval head w/ WIHA Handle & Torx bits',
       price: '24.95',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+      description: 'a driver and shop quality bits that will open all the special screws used in most Jura, Jura Capresso, Delonghi, Nespresso, Starbucks Verismo, Magimix, Franke, Siemens, Krups and AEG machines. The set consists of: 416 Stainless Steel Fully Magnetic Oval Head bit. Custom manufactured for us by a professional CNC shop in USA. Wiha (Germany) T10 Torx bit Wiha (Germany) T15 Torx bit Wiha (Germany) T20 Torx bit Wiha (Germany) PROturn 48400. High quality durable magnetic 1/4 hex driver handle with strong professional grade magnet The kit contains all the three Torx sizes that are commonly used in these machines. The Torx bit are hardened tool steel and made in Germany by Wiha.',
       imageOne: './images/shop-tool-kit-oval-head.jpg',
       imageTwo: './images/shop-tool-kit-oval-head-2.jpg',
       altText: 'Jura Nespresso Professional Shop Tool Kit - Oval head w/ WIHA Handle & Torx bits',
@@ -21,12 +21,12 @@ app.controller('appCtrl', function($scope, $document) {
     },
     {
       title: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
-      price: '9.95',
+      price: '12.95',
       description: '',
       imageOne: './images/service-repair-key.jpg',
       imageTwo: './images/service-repair-key-2.jpg',
       altText: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
-      productid: ''
+      productid: '39901'
     },
     {
       title: 'Jura Capresso OEM Brew Group O-ring set w/Oval Head Service Key Tool',
@@ -44,7 +44,7 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/o-ring-set.jpg',
       imageTwo: './images/o-ring-set-2.jpg',
       altText: 'Jura Capresso OEM Brew Group O-ring gasket seal set (no service tool)',
-      productid: ''
+      productid: '39909'
     },
     {
       title: 'Duplex Decora insert for Neutrik "D" Series XLR Cannon or SpeakOn Paintable',
@@ -57,12 +57,12 @@ app.controller('appCtrl', function($scope, $document) {
     },
     {
       title: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
-      price: '2.50',
+      price: '5.95',
       description: 'A 6 gram bag of Dow Corning 111 valve lubricant and sealant grease. This grease is NSF/ANSI 51/61 certified and safe for use in food processing and in your coffee maker. (This is the exact same grease as the OKS 1110 brand grease that is used for servicing Jura Capresso machines in Europe).',
       imageOne: './images/dow-corning-grease.jpg',
       imageTwo: './images/dow-corning-grease-2.jpg',
       altText: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
-      productid: ''
+      productid: '39904'
     },
     {
       title: 'Jura Capresso OEM Cherry D45X Micro Switch (for Grounds/Tray Error)',
@@ -71,7 +71,7 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/cherry-micro-switch.jpg',
       imageTwo: './images/cherry-micro-switch-2.jpg',
       altText: 'Jura Capresso OEM Cherry D45X Micro Switch. Fix EMPTY GROUNDS/TRAY MISSING error',
-      productid: ''
+      productid: '39906'
     },
     {
       title: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable',
