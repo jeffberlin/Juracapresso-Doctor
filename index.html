@@ -60,7 +60,14 @@
                       <h5 class="card-title">{{x.title}}</h5>
                       <p class="card-text mb-3"><em>${{x.price}}</em></p>
                     </a>
-                    <button type="button" name="button" class="card-buy-btn">Buy Now</button>
+                    <form method="post" action="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart">
+                      <input type="hidden" name="ACTION" value="1">
+                      <input type="hidden" name="CLR" value="0">
+                      <input type="hidden" name="CID" value="3">
+                      <input type="hidden" name="CURRENCY" value="USD">
+                      <input type="hidden" name="PRODUCTID" value="{{x.productid}}">
+                      <button type="submit" name="button" class="card-buy-btn">Buy Now</button>
+                    </form>
                   </div>
                 </div> <!-- /.card -->
               </div>
