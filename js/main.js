@@ -8,7 +8,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/service-tool-bit.jpg',
       imageTwo: './images/service-tool-bit-2.jpg',
       altText: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
-      productid: '39902'
+      productid: '39902',
+      modalName: 'serviceToolBit',
+      modalTitle: '',
     },
     {
       title: 'Jura Nespresso Professional Shop Tool Kit - Oval head w/ WIHA Handle & Torx bits',
@@ -17,7 +19,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/shop-tool-kit-oval-head.jpg',
       imageTwo: './images/shop-tool-kit-oval-head-2.jpg',
       altText: 'Jura Nespresso Professional Shop Tool Kit - Oval head w/ WIHA Handle & Torx bits',
-      productid: '39912'
+      productid: '39912',
+      modalName: '',
+      modalTitle: '',
     },
     {
       title: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
@@ -26,7 +30,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/service-repair-key.jpg',
       imageTwo: './images/service-repair-key-2.jpg',
       altText: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
-      productid: '39901'
+      productid: '39901',
+      modalName: '',
+      modalTitle: '',
     },
     {
       title: 'Jura Capresso OEM Brew Group O-ring set w/Oval Head Service Key Tool',
@@ -35,7 +41,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/o-ring-set-key-tool.jpg',
       imageTwo: './images/o-ring-set-key-tool-2.jpg',
       altText: 'Jura Capresso OEM Brew Group O-ring set w/Oval Head Service Key Tool',
-      productid: '39910'
+      productid: '39910',
+      modalName: '',
+      modalTitle: '',
     },
     {
       title: 'Jura Capresso OEM Brew Group O-ring gasket seal set (no service tool)',
@@ -44,7 +52,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/o-ring-set.jpg',
       imageTwo: './images/o-ring-set-2.jpg',
       altText: 'Jura Capresso OEM Brew Group O-ring gasket seal set (no service tool)',
-      productid: '39909'
+      productid: '39909',
+      modalName: '',
+      modalTitle: '',
     },
     {
       title: 'Duplex Decora insert for Neutrik "D" Series XLR Cannon or SpeakOn Paintable',
@@ -53,7 +63,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/duplex-decora-insert.jpg',
       imageTwo: './images/duplex-decora-insert-2.jpg',
       altText: 'Duplex Decora insert for Neutrik "D" Series XLR Cannon or SpeakOn Paintable',
-      productid: ''
+      productid: '',
+      modalName: '',
+      modalTitle: '',
     },
     {
       title: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
@@ -62,7 +74,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/dow-corning-grease.jpg',
       imageTwo: './images/dow-corning-grease-2.jpg',
       altText: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
-      productid: '39904'
+      productid: '39904',
+      modalName: '',
+      modalTitle: '',
     },
     {
       title: 'Jura Capresso OEM Cherry D45X Micro Switch (for Grounds/Tray Error)',
@@ -71,7 +85,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/cherry-micro-switch.jpg',
       imageTwo: './images/cherry-micro-switch-2.jpg',
       altText: 'Jura Capresso OEM Cherry D45X Micro Switch. Fix EMPTY GROUNDS/TRAY MISSING error',
-      productid: '39906'
+      productid: '39906',
+      modalName: '',
+      modalTitle: '',
     },
     {
       title: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable',
@@ -80,7 +96,9 @@ app.controller('appCtrl', function($scope, $document) {
       imageOne: './images/duplex-decora-insert-single.jpg',
       imageTwo: './images/duplex-decora-insert-single-2.jpg',
       altText: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable',
-      productid: ''
+      productid: '',
+      modalName: '',
+      modalTitle: '',
     }
   ];
 });
