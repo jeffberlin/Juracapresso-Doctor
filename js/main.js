@@ -1,5 +1,6 @@
 var app = angular.module('fullApp', []);
 app.controller('appCtrl', function($scope, $document) {
+	
   $scope.productCardInfo = [
     {
       title: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
