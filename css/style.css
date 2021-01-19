@@ -62,7 +62,7 @@ button:focus, input:focus, textarea:focus, select:focus, .form-control {
 	opacity: .6;
 }
 
-.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover {
+.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover {
 	-webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -91,9 +91,14 @@ h2 {
 }
 
 .card {
-  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.30);
-  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.30);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.20);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.20);
   border-radius: 20px;
+}
+
+.card:hover {
+	-webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.40);
+  box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.40);
 }
 
 .card img {

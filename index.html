@@ -88,7 +88,7 @@
 							</div>
 							<div class="modal-body">
 
-								<div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false" ng-repeat="photos in productCardInfo.images track by $index">
+								<div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false" ng-repeat="photos in productCardInfo.images">
 								  <div class="carousel-inner">
 								    <div class="carousel-item mb-3" ng-class="{active:!$index}">
 								      <img ng-src="{{photos}}" class="d-block w-100 h-80" alt="{{x.altText}}">
