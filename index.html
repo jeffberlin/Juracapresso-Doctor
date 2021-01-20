@@ -51,14 +51,18 @@
             <div class="card-deck">
               <div class="col-4 d-flex justify-content-center mb-5" ng-repeat="x in productCardInfo | filter:results">
                 <div class="card">
-                  <div class="text-center modal-div" href="/products/{{x.productid}}">
+    <!-- Check the <a> for GitHub/local tests before pushing -->
+                  <!-- <a class="text-center modal-div" ng-href="file:///Users/jeffberlin/Desktop/Development/Juracapresso-Doctor/product-{{x.productid}}.html"> -->
+                	<a class="text-center modal-div" ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/product-{{x.productid}}.html">
                     <img ng-src="{{x.imageOne}}" alt="{{x.altText}}">
-                  </div>
+                  </a>
                   <div class="card-body">
-                    <div class="modal-div" href="/products/{{x.productid}}">
+  	<!-- Check the <a> for GitHub/local tests before pushing -->
+                    <!-- <a class="modal-div" ng-href="file:///Users/jeffberlin/Desktop/Development/Juracapresso-Doctor/product-{{x.productid}}.html"> -->
+                  	<a class="modal-div" ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/product-{{x.productid}}.html">
                       <h5 class="card-title">{{x.title}}</h5>
                       <p class="card-text mb-3"><em>${{x.price}}</em></p>
-                    </div>
+                    </a>
                     <form method="post" action="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart">
                       <input type="hidden" name="ACTION" value="1">
                       <input type="hidden" name="CLR" value="0">
