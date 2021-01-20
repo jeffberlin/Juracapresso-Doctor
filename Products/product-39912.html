@@ -31,12 +31,12 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12">
-            <h2 class="mb-5" style="margin-top: 6rem;">{{productCardInfo[0].title}}</h2>
+            <h2 class="mb-5" style="margin-top: 6rem;">{{productCardInfo[1].title}}</h2>
           </div> <!-- /.col-12 -->
           <div class="col-6">
             <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false">
               <div class="carousel-inner">
-                <div class="carousel-item" ng-class="{active:!$index}" ng-repeat="photos in productCardInfo[0].images">
+                <div class="carousel-item" ng-class="{active:!$index}" ng-repeat="photos in productCardInfo[1].images">
                   <img ng-src="../{{photos}}" class="d-block w-100" alt="{{productCardInfo[0].altText}}">
                 </div>
               </div>
@@ -51,14 +51,14 @@
             </div>
           </div> <!-- /.col-6 -->
           <div class="col-6">
-            <p class="product-price">Price: ${{productCardInfo[0].price}}</p>
-            <p>{{productCardInfo[0].description}}</p>
+            <p class="product-price">Price: ${{productCardInfo[1].price}}</p>
+            <p>{{productCardInfo[1].description}}</p>
             <form method="post" action="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart">
               <input type="hidden" name="ACTION" value="1">
               <input type="hidden" name="CLR" value="0">
               <input type="hidden" name="CID" value="3">
               <input type="hidden" name="CURRENCY" value="USD">
-              <input type="hidden" name="PRODUCTID" value="{{productCardInfo[0].productid}}">
+              <input type="hidden" name="PRODUCTID" value="{{productCardInfo[1].productid}}">
               <button type="submit" name="button" class="product-buy-btn">Buy Now</button>
             </form>
           </div> <!-- /.col-6 -->

@@ -5,7 +5,7 @@ app.controller('appCtrl', function($scope, $document) {
     {
       title: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
       price: '12.95',
-      description: 'A stanless steel tool bit that will open the special oval head screws used in most Jura, Jura Capresso, Nespresso, Krups and AEG machines. This bit is manufactured from 416 Stainless Steel. 416 SS has the characteristic of being magnetic and stays put in a driver handle with magnet unlike our 303 SS tool.',
+      description: 'A precision bit that will open the special oval head bolts used in Nespresso machines by various manufacturers (Jura, Krups, Delonghi, AEG, Siemens, Magimix and others). The bit can be used as-is as a hand tool, or you can use it with any 1/4" bit driver by removing the ring. Material: 303 Stainless Steel (non-magnetic). Long-life steel. Designed and precision made in the USA. ',
       imageOne: './images/service-tool-bit.jpg',
       images: ['./images/service-tool-bit.jpg','./images/service-tool-bit-2.jpg'],
       altText: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
@@ -18,7 +18,7 @@ app.controller('appCtrl', function($scope, $document) {
       price: '24.95',
       description: 'A driver and shop quality bits that will open all the special screws used in most Jura, Jura Capresso, Delonghi, Nespresso, Starbucks Verismo, Magimix, Franke, Siemens, Krups and AEG machines. The set consists of: 416 Stainless Steel Fully Magnetic Oval Head bit. Custom manufactured for us by a professional CNC shop in USA. Wiha (Germany) T10 Torx bit Wiha (Germany) T15 Torx bit Wiha (Germany) T20 Torx bit Wiha (Germany) PROturn 48400. High quality durable magnetic 1/4 hex driver handle with strong professional grade magnet The kit contains all the three Torx sizes that are commonly used in these machines. The Torx bit are hardened tool steel and made in Germany by Wiha.',
       imageOne: './images/shop-tool-kit-oval-head.jpg',
-      images: ['./images/shop-tool-kit-oval-head.jpg', './images/shop-tool-kit-oval-head-2.jpg',],
+      images: ['./images/shop-tool-kit-oval-head.jpg', './images/shop-tool-kit-oval-head-2.jpg', './images/shop-tool-kit-oval-head-3.jpg', './images/shop-tool-kit-oval-head-4.jpg',],
       altText: 'Jura Nespresso Professional Shop Tool Kit - Oval head w/ WIHA Handle & Torx bits',
       productid: '39912',
       modalName: 'shopToolKit',
