@@ -75,6 +75,15 @@ app.controller('appCtrl', function($scope, $document) {
       productid: '39906',
     },
     {
+      title: 'Espresso brew group O-ring seal grease DOW CORNING MOLYKOTE 111 (3pk)',
+      price: '9.95',
+      description: 'A 6 gram bag of Dow Corning 111 valve lubricant and sealant grease. This grease is NSF/ANSI 51/61 certified and safe for use in food processing and in your coffee maker. (This is the exact same grease as the OKS 1110 brand grease that is used for servicing Jura Capresso machines in Europe).',
+      imageOne: './images/dow-corning-grease-3pk.jpg',
+      images: ['./images/dow-corning-grease-3pk.jpg', './images/dow-corning-grease-2.jpg'],
+      altText: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
+      productid: '39911',
+    },
+    {
       title: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable',
       price: '5.95',
       description: 'A Decora insert in white. The insert has been milled to fit most regular size Neutrik XLR and SpeakOn connectors. Suitable mounting hardware (M3 screws and nuts) are included.',
