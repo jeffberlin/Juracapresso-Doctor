@@ -67,7 +67,7 @@ button:focus, input:focus, textarea:focus, select:focus, .form-control {
 	opacity: .6;
 }
 
-.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover {
+.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover, .cart-btn:hover {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -131,6 +131,19 @@ h2 {
 .card-buy-btn:hover {
   -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
+}
+
+.cart-btn {
+	border: none;
+	background-color: transparent;
+}
+
+.bi-cart3 {
+	font-size: 1.5rem;
+}
+
+.cart-btn:hover {
+	color: #F60402;
 }
 
 footer {

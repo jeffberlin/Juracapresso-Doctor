@@ -57,13 +57,13 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12">
-            <h2 class="mb-5" style="margin-top: 6rem;">{{productCardInfo[0].title}}</h2>
+            <h2 class="mb-5" style="margin-top: 6rem;">{{productCardInfo[2].title}}</h2>
           </div> <!-- /.col-12 -->
           <div class="col-6">
             <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false">
               <div class="carousel-inner">
-                <div class="carousel-item" ng-class="{active:!$index}" ng-repeat="photos in productCardInfo[0].images">
-                  <img ng-src="../{{photos}}" class="d-block w-100" alt="{{productCardInfo[0].altText}}">
+                <div class="carousel-item" ng-class="{active:!$index}" ng-repeat="photos in productCardInfo[2].images">
+                  <img ng-src="../{{photos}}" class="d-block w-100" alt="{{productCardInfo[2].altText}}">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
@@ -77,10 +77,10 @@
             </div>
           </div> <!-- /.col-6 -->
           <div class="col-6">
-            <p class="product-price">Price: ${{productCardInfo[0].price}}</p>
-            <p>{{productCardInfo[0].description}}</p>
-            <button class="product-add-btn mr-3" id="buybutton" type="button" ng-click="bmtAddToCart(productCardInfo[0].productid);">Add to Cart</button>
-            <button type="button" name="button" class="product-buy-btn" id="buybutton" ng-click="bmtCheckout(productCardInfo[0].productid);">Buy Now</button>
+            <p class="product-price">Price: ${{productCardInfo[2].price}}</p>
+            <p>{{productCardInfo[2].description}}</p>
+            <button class="product-add-btn mr-3" id="buybutton" type="button" ng-click="bmtAddToCart(productCardInfo[2].productid);">Add to Cart</button>
+            <button type="button" name="button" class="product-buy-btn" id="buybutton" ng-click="bmtCheckout(productCardInfo[2].productid);">Buy Now</button>
           </div> <!-- /.col-6 -->
         </div> <!-- /.row .justify-content-center -->
       </div> <!-- /.container -->

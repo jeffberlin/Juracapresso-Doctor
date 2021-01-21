@@ -27,9 +27,9 @@ app.controller('appCtrl', function($scope, $document) {
     {
       title: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
       price: '12.95',
-      description: '',
+      description: 'A stainless steel precision bit that will open the special oval head screws used in most Jura, Jura Capresso, Nespresso, Krups and AEG machines. The bit can be used as-is as a hand tool, or you can use it with any 1/4" bit driver by removing the ring.  Material: 303 Stainless Steel (non-magnetic). Long-life steel. Designed and precision made in the USA.',
       imageOne: './images/service-repair-key.jpg',
-      images: ['./images/service-repair-key.jpg', './images/service-repair-key-2.jpg'],
+      images: ['./images/service-repair-key.jpg', './images/service-repair-key-2.jpg', './images/service-repair-key-3.jpg', './images/service-repair-key-4.jpg', './images/service-repair-key-5.jpg'],
       altText: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
       productid: '39901',
       modalName: '',
@@ -105,5 +105,8 @@ app.controller('appCtrl', function($scope, $document) {
 
   $scope.bmtCheckout = function(productID) {
 		bmt_checkout(productID, 3);
+	}
+	$scope.bmtAddToCart = function(productID) {
+		bmt_addtocart(productID);
 	}
 });
