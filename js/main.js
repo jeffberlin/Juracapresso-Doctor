@@ -1,6 +1,6 @@
 var app = angular.module('fullApp', []);
 app.controller('appCtrl', function($scope, $document) {
-	
+
   $scope.productCardInfo = [
     {
       title: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
@@ -102,4 +102,8 @@ app.controller('appCtrl', function($scope, $document) {
       modalTitle: '',
     }
   ];
+
+  $scope.bmtCheckout = function(productID) {
+		bmt_checkout(productID, 3);
+	}
 });
