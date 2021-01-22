@@ -1,0 +1,30 @@
+@media (max-width: 1199px) {
+	
+}
+
+@media (max-width: 991px) {
+	.banner {
+		height: 200px;
+	}
+	.banner h2 {
+		font-size: 2rem;
+	}
+	.form-control {
+		width: 250px !important;
+	}
+}
+
+@media (max-width: 766px) {
+	.form-inline, .cart-btn, .contact-btn {
+		margin-top: 1rem;
+	}
+	.cart-btn {
+		margin-right: 0 !important;
+	}
+	.contact-btn {
+		width: 200px;
+	}
+	.contact-btn, .form-inline {
+		align-self: center;
+	}
+}
