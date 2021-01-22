@@ -78,14 +78,14 @@
               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 d-flex justify-content-center mb-5" ng-repeat="x in productCardInfo | filter:results">
                 <div class="card">
     <!-- Check the <a> for GitHub/local tests before pushing -->
-                  <!-- <a class="text-center modal-div" ng-href="file:///Users/jeffberlin/Desktop/Development/Juracapresso-Doctor/Products/product-{{x.productid}}.html"> -->
-                	<a class="text-center modal-div" ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/Products/product-{{x.productid}}.html">
+                  <a class="text-center modal-div" ng-href="file:///Users/jeffberlin/Desktop/Development/Juracapresso-Doctor/Products/product-{{x.productid}}.html">
+                	<!-- <a class="text-center modal-div" ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/Products/product-{{x.productid}}.html"> -->
                     <img class="img-fluid" ng-src="{{x.imageOne}}" alt="{{x.altText}}">
                   </a>
                   <div class="card-body">
   	<!-- Check the <a> for GitHub/local tests before pushing -->
-                    <!-- <a class="modal-div" ng-href="file:///Users/jeffberlin/Desktop/Development/Juracapresso-Doctor/Products/product-{{x.productid}}.html"> -->
-                  	<a class="modal-div" ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/Products/product-{{x.productid}}.html">
+                    <a class="modal-div" ng-href="file:///Users/jeffberlin/Desktop/Development/Juracapresso-Doctor/Products/product-{{x.productid}}.html">
+                  	<!-- <a class="modal-div" ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/Products/product-{{x.productid}}.html"> -->
                       <h5 class="card-title">{{x.title}}</h5>
                       <p class="card-text mb-3"><em>${{x.price}}</em></p>
                     </a>

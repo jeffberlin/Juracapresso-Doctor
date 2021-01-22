@@ -34,27 +34,26 @@
   </head>
   <body>
     <div class="wrapper" ng-app="fullApp" ng-controller="appCtrl">
-      <header class="section-header fixed-top">
-        <section class="header-main">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="mt-3 mb-3 col-4" ng-init="logo = '../images/juracapresso-doctor-logo.png'">
-                <a ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/">
-                  <img ng-src="{{logo}}" alt="Juracapresso Doctor logo" height="40">
-                </a>
-              </div>
-              <div class="col-8 text-right">
-                <button class="cart-btn mr-3" id="buybutton" type="button" onclick="bmt_showcart(3);">
-                  <i class="bi bi-cart3"></i>
-                </button>
-                <button type="button" name="button" class="contact-btn">
-                  <a href="mailto:">Contact Us</a>
-                </button>
-              </div>
-            </div> <!-- /.row -->
-          </div> <!-- /.container -->
-        </section>
-      </header>
+      <nav class="fixed-top navbar navbar-light navbar-expand-md">
+        <div class="container">
+          <div class="navbar-brand" ng-init="logo = '../images/juracapresso-doctor-logo.png'">
+            <img ng-src="{{logo}}" alt="Juracapresso Doctor logo" height="40">
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mt-lg-0 ml-auto">
+              <button class="cart-btn mr-3" id="buybutton" type="button" onclick="bmt_showcart(3);">
+                <i class="bi bi-cart3"></i>
+              </button>
+              <button type="button" name="button" class="contact-btn">
+                <a href="mailto:">Contact Us</a>
+              </button>
+            </ul>
+          </div> <!-- /.collapse navbar-collapse -->
+        </div> <!-- /.container -->
+      </nav>
       <div class="container">
         <div class="row mb-5">
           <div class="col-12">
