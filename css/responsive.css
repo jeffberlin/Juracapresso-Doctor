@@ -27,4 +27,7 @@
 	.contact-btn, .form-inline {
 		align-self: center;
 	}
+	.card-deck {
+		justify-content: center;
+	}
 }

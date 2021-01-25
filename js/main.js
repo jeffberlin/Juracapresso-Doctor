@@ -102,14 +102,10 @@ app.controller('appCtrl', function($scope, $document) {
 	}
 });
 
-// When you click everywhere in the document
+// When you click everywhere in the document, open navbar collapses
 $(document).click(function (event) {
-
-  // If *navbar-collapse* is not among targets of event
   if (!$(event.target).is('.navbar-collapse *')) {
-
     // Collapse every *navbar-collapse*
     $('.navbar-collapse').collapse('hide');
-
   }
 });
