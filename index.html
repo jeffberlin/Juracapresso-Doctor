@@ -46,7 +46,7 @@
 							<form class="form-inline" action="#">
 	              <div class="input-group">
 	                <input class="form-control" type="search" placeholder="Search" aria-label="Search" ng-model="results">
-	                <button class="form-btn pl-2 pr-2" type="submit">
+	                <button class="form-btn pl-2 pr-2" type="button">
 	                  <i class="bi-search"></i>
 	                </button>
 	              </div>
@@ -74,8 +74,8 @@
         <div class="row justify-content-center mb-5">
           <div class="col-12">
             <h2 class="text-center mb-5">Products</h2>
-            <div class="card-deck">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 d-flex justify-content-center mb-5" ng-repeat="x in productCardInfo | filter:results">
+            <div class="card-deck justify-content-center">
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 d-flex mb-5" ng-repeat="x in productCardInfo | filter:results">
                 <div class="card">
     <!-- Check the <a> for GitHub/local tests before pushing -->
                   <!-- <a class="text-center modal-div" ng-href="file:///Users/jeffberlin/Desktop/Development/Juracapresso-Doctor/Products/product-{{x.productid}}.html"> -->
