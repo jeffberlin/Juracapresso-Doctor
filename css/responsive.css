@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 766px) {
-	.form-inline, .cart-btn, .contact-btn {
+	.form-inline, .cart-btn, .contact-btn, .product-price {
 		margin-top: 1rem;
 	}
 	.cart-btn {

@@ -61,7 +61,7 @@
           <div class="col-12">
             <h2 class="mb-5" style="margin-top: 6rem;">{{productCardInfo[7].title}}</h2>
           </div> <!-- /.col-12 -->
-          <div class="col-6">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false">
               <div class="carousel-inner">
                 <div class="carousel-item" ng-class="{active:!$index}" ng-repeat="photos in productCardInfo[7].images">
@@ -77,13 +77,13 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-          </div> <!-- /.col-6 -->
-          <div class="col-6">
+          </div> <!-- /.col-* -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <p class="product-price">Price: ${{productCardInfo[7].price}}</p>
             <p>{{productCardInfo[7].description}}</p>
             <button class="product-add-btn mr-3" id="buybutton" type="button" ng-click="bmtAddToCart(productCardInfo[7].productid);">Add to Cart</button>
             <button type="button" name="button" class="product-buy-btn" id="buybutton" ng-click="bmtCheckout(productCardInfo[7].productid);">Buy Now</button>
-          </div> <!-- /.col-6 -->
+          </div> <!-- /.col-* -->
         </div> <!-- /.row .justify-content-center -->
       </div> <!-- /.container -->
       <footer class="text-center w-100 p-5">
