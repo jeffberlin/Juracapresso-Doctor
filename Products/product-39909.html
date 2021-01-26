@@ -58,8 +58,13 @@
       </nav>
       <div class="container">
         <div class="row mb-5">
+          <div class="col-12 mb-3" style="margin-top: 6rem;">
+            <a ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/" class="back-btn">
+              <i class="bi bi-arrow-left-short"></i>Back
+            </a>
+          </div> <!-- /.col-12 -->
           <div class="col-12">
-            <h2 class="mb-5" style="margin-top: 6rem;">{{productCardInfo[4].title}}</h2>
+            <h2 class="mb-5">{{productCardInfo[2].title}}</h2>
           </div> <!-- /.col-12 -->
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -84,7 +89,7 @@
             <button class="product-add-btn mr-3" id="buybutton" type="button" ng-click="bmtAddToCart(productCardInfo[4].productid);">Add to Cart</button>
             <button type="button" name="button" class="product-buy-btn" id="buybutton" ng-click="bmtCheckout(productCardInfo[4].productid);">Buy Now</button>
           </div> <!-- /.col-* -->
-        </div> <!-- /.row .justify-content-center -->
+        </div> <!-- /.row .mb-5 -->
       </div> <!-- /.container -->
       <footer class="text-center w-100 p-5">
         <span>&copy; Juracapresso Doctor <script>document.write(new Date().getFullYear())</script></span>
