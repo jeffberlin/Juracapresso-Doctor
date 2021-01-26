@@ -68,7 +68,7 @@ nav {
 	opacity: .6;
 }
 
-.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover, .cart-btn:hover {
+.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover, .cart-btn:hover, #topcontrol:hover .scrollup-svg-icon {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -149,4 +149,33 @@ h2 {
 
 footer {
 	bottom: 0;
+}
+
+#topcontrol {
+	background-color: #F60402;
+  padding: 8px;
+	z-index: 1000;
+	border-radius: 30px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	background-clip: padding-box;
+	-webkit-animation: display 0.5s;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	opacity: 1;
+	cursor: pointer;
+  animation: display 0.5s;
+  display: none;
+}
+
+#topcontrol svg {
+  width: 30px;
+  height: 30px;
+  display: block;
+  overflow: hidden;
+  fill: #000000;
+}
+
+#topcontrol:hover .scrollup-svg-icon {
+  fill: #ffffff;
 }

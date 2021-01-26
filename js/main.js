@@ -94,13 +94,31 @@ app.controller('appCtrl', function($scope, $document) {
     }
   ];
 
+  // BMT Micro shopping cart buttons
   $scope.bmtCheckout = function(productID) {
 		bmt_checkout(productID, 3);
 	}
 	$scope.bmtAddToCart = function(productID) {
 		bmt_addtocart(productID);
 	}
+
 });
+
+// Scroll to top button
+$(document).scroll(function() {
+	var y = $(this).scrollTop();
+	if (y >= 75) {
+		$('#topcontrol').fadeIn();
+	} else {
+		$('#topcontrol').fadeOut();
+	}
+});
+
+$("#topcontrol").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#primary").offset().top
+	}, 'slow')
+})
 
 // When you click everywhere in the document, open navbar collapses
 $(document).click(function (event) {
