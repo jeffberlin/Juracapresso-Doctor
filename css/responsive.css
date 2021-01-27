@@ -1,7 +1,3 @@
-@media (max-width: 1199px) {
-	
-}
-
 @media (max-width: 991px) {
 	.banner {
 		height: 200px;
@@ -14,7 +10,7 @@
 	}
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
 	.form-inline, .cart-btn, .contact-btn, .product-price {
 		margin-top: 1rem;
 	}

@@ -19,7 +19,7 @@ button:focus, input:focus, textarea:focus, select:focus, .form-control {
 
 .wrapper {
 	min-height: calc(100vh - 117px);
-	position: relative;
+	/*margin-bottom: 10px;*/
 }
 
 nav {
