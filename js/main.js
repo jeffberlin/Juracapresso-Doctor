@@ -48,15 +48,6 @@ app.controller('appCtrl', function($scope, $document) {
       productid: '39909',
     },
     {
-      title: 'Duplex Decora insert for Neutrik "D" Series XLR Cannon or SpeakOn Paintable',
-      price: '8.95',
-      description: 'Decora insert in white. The insert has been milled to fit two Neutrik XLR and/or SpeakOn connectors. Suitable mounting hardware (M3 screws and nuts) are included.',
-      imageOne: './images/duplex-decora-insert.jpg',
-      images: ['./images/duplex-decora-insert.jpg', './images/duplex-decora-insert-2.jpg'],
-      altText: 'Duplex Decora insert for Neutrik "D" Series XLR Cannon or SpeakOn Paintable',
-      productid: '',
-    },
-    {
       title: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
       price: '5.95',
       description: 'A 6 gram bag of Dow Corning 111 valve lubricant and sealant grease. This grease is NSF/ANSI 51/61 certified and safe for use in food processing and in your coffee maker. (This is the exact same grease as the OKS 1110 brand grease that is used for servicing Jura Capresso machines in Europe).',
@@ -83,15 +74,6 @@ app.controller('appCtrl', function($scope, $document) {
       altText: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
       productid: '39911',
     },
-    {
-      title: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable',
-      price: '5.95',
-      description: 'A Decora insert in white. The insert has been milled to fit most regular size Neutrik XLR and SpeakOn connectors. Suitable mounting hardware (M3 screws and nuts) are included.',
-      imageOne: './images/duplex-decora-insert-single.jpg',
-      images: ['./images/duplex-decora-insert-single.jpg', './images/duplex-decora-insert-single-2.jpg'],
-      altText: 'Decora insert for Neutrik "D" Series XLR (Cannon) or SpeakOn Paintable',
-      productid: '',
-    }
   ];
 
   // BMT Micro shopping cart buttons
