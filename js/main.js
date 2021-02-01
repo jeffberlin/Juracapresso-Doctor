@@ -77,9 +77,6 @@ app.controller('appCtrl', function($scope, $document) {
   ];
 
   // BMT Micro shopping cart buttons
-  $scope.bmtCheckout = function(productID) {
-		bmt_checkout(productID, 3);
-	}
 	$scope.bmtAddToCart = function(productID) {
 		bmt_addtocart(productID);
 	}
