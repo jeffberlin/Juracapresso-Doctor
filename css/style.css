@@ -51,31 +51,31 @@ nav {
 	border: 1px solid #F60402;
 }
 
-.contact-btn {
+.checkout-btn {
 	border-radius: 5px;
 	padding: .5rem 1rem;
 }
 
-.contact-btn, footer {
+.checkout-btn, footer {
 	font-size: .9rem;
 }
 
-.contact-btn, .card-buy-btn {
+.checkout-btn, .card-buy-btn {
 	background-color: #F60402;
 }
 
-.contact-btn:hover, .form-btn:hover {
+.checkout-btn:hover, .form-btn:hover {
 	opacity: .6;
 }
 
-.contact-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover, .cart-btn:hover, #topcontrol:hover .scrollup-svg-icon {
+.checkout-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover, .cart-btn:hover, .contact-btn, #topcontrol:hover .scrollup-svg-icon {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 
-h6, p, .card-buy-btn, .contact-btn {
+h6, p, .card-buy-btn, .checkout-btn {
   letter-spacing: .5px;
 }
 
@@ -121,11 +121,11 @@ h2 {
   font-weight: bold;
 }
 
-.card-buy-btn, .contact-btn, .form-btn {
+.card-buy-btn, .checkout-btn, .form-btn {
 	border: none;
 }
 
-.card-buy-btn, footer, .contact-btn, .bi-search, .intro-banner h2 {
+.card-buy-btn, footer, .checkout-btn, .bi-search, .intro-banner h2 {
 	color: #ffffff;
 }
 
@@ -134,16 +134,16 @@ h2 {
   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
 }
 
-.cart-btn {
+.cart-btn, .contact-btn {
 	border: none;
 	background-color: transparent;
 }
 
-.bi-cart3 {
+.bi-cart3, .bi-envelope {
 	font-size: 1.5rem;
 }
 
-.cart-btn:hover {
+.cart-btn:hover, .contact-btn:hover {
 	color: #F60402;
 }
 

@@ -15,23 +15,25 @@
 }
 
 @media (max-width: 767px) {
-	.form-inline, .cart-btn, .contact-btn, .product-price {
+	.form-inline, .contact-btn, .checkout-btn, .product-price {
 		margin-top: 1rem;
 	}
 	.cart-btn {
+		margin-top: .5rem;
+	}
+	.cart-btn, .contact-btn {
 		margin-right: 0 !important;
 	}
-	.contact-btn {
+	.checkout-btn {
 		width: 200px;
 	}
-	.contact-btn, .form-inline {
+	.checkout-btn, .form-inline {
 		align-self: center;
 	}
 	.card-deck {
 		justify-content: center;
 	}
-}
-
-@media (max-width: 576) {
-	
+	.contact-btn {
+		padding-right: 6px !important;
+	}
 }

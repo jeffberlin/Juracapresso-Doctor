@@ -62,11 +62,16 @@
 	            </form>
 						</ul>
 						<ul class="navbar-nav mt-lg-0">
-							<button class="cart-btn mr-3" id="buybutton" type="button" onclick="bmt_showcart(3);">
+              <button type="button" class="contact-btn pr-0 mr-3" title="Contact Us!">
+                <a href="mailto:">
+                  <i class="bi bi-envelope"></i>
+                </a>
+              </button>
+							<button class="cart-btn mr-3" id="buybutton" type="button" onclick="bmt_showcart(3);" title="View Cart">
 	              <i class="bi bi-cart3"></i>
 	            </button>
-							<button type="button" name="button" class="contact-btn">
-	              <a href="mailto:">Contact Us</a>
+							<button type="button" id="buybutton" onclick="checkout();" class="checkout-btn" title="Go to Checkout">
+	              Checkout
 	            </button>
 	          </ul>
 				  </div> <!-- /.collapse navbar-collapse -->
@@ -96,7 +101,7 @@
                       <h5 class="card-title">{{x.title}}</h5>
                       <p class="card-text mb-3"><em>${{x.price}}</em></p>
                     </a>
-                    <button type="button" name="button" class="card-buy-btn" id="buybutton" ng-click="bmtCheckout(x.productid);">Buy Now</button>
+                    <button type="button" name="button" class="card-buy-btn" id="buybutton" ng-click="bmtAddToCart(x.productid);">Add to Cart</button>
                   </div>
                 </div> <!-- /.card -->
               </div>
