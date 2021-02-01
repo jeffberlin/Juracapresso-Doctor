@@ -86,23 +86,16 @@ app.controller('appCtrl', function($scope, $document) {
 
 });
 
-// BMT Cart
-function createcart (productid) {
-  cart = bmt_createCart (3);
-  return (cart);
+// BMT Cart checkout
+function createcart(productid) {
+	cart = bmt_createCart(3);
+	return(cart);
 }
-function checkout(productid) {   
-  var cart = createcart ();
-  if (productid) {
-    cart.clearCart ();
-    cart.addProduct (productid);
-  }
-  cart.showCart (true);
-}
-function addtocart(productid) {   
-  var cart = createcart ();
-  cart.addProduct (productid);
-  cart.showCart (false);
+
+function checkout(productid) {
+	var cart = createcart();
+	cart.addProduct (productid);
+	cart.showCart(false);
 }
 
 // Scroll to top button
