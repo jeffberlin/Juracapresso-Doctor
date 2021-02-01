@@ -42,8 +42,7 @@
 }
 
 .carousel-item img {
-	/*height: 500px;*/
-	height: calc((100vw - 20px) * 0.5625));
+	max-height: 500px;
 }
 
 .carousel-control-prev, .carousel-control-next {
