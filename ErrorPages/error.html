@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/favicons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../images/favicons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../images/favicons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../images/favicons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../images/favicons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../images/favicons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../images/favicons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../images/favicons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../images/favicons/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="../images/favicons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../images/favicons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+		<link rel="manifest" href="../images/favicons/manifest.json">
+    <!-- Open Graph info -->
+    <meta name="Description" content="One stop shop for Juracapresso machines!">
+    <meta name="Keywords" content="jura, capresso, coffee, juracapresso, espresso, mocha, latte, tools">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="../images/favicons/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+    <title>Juracapresso Doctor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+  </head>
+  <body>
+    <div class="wrapper" ng-app="fullApp" ng-controller="appCtrl">
+      <nav class="fixed-top navbar navbar-light navbar-expand-md">
+        <div class="container">
+          <div class="navbar-brand" ng-init="logo = '../images/juracapresso-doctor-logo.png'">
+            <a ng-href="https://jeffberlin.github.io/Juracapresso-Doctor/">
+              <img ng-src="{{logo}}" alt="Juracapresso Doctor logo" height="40">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mt-lg-0 ml-auto">
+              <button type="button" class="contact-btn pr-0 mr-3" title="Contact Us!">
+                <a href="mailto:">
+                  <i class="bi bi-envelope"></i>
+                </a>
+              </button>
+              <button class="cart-btn mr-3" id="buybutton" type="button" onclick="bmt_showcart(3);" title="View Cart">
+                <i class="bi bi-cart3"></i>
+              </button>
+              <button type="button" id="buybutton" class="checkout-btn" onclick="checkout();" title="Go to Checkout">
+                Checkout
+              </button>
+            </ul>
+          </div> <!-- /.collapse navbar-collapse -->
+        </div> <!-- /.container -->
+      </nav>
+      <div class="container page-content">
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 mb-3 text-center" style="margin-top: 6rem;">
+            <h2 class=" mb-5">Error</h2>
+            <p>Whoops! Something isn't right. Please go back and try again.</p>
+          </div> <!-- /.col-12 -->
+        </div> <!-- /.row .justify-content-center -->
+      </div> <!-- /.container -->
+    </div> <!-- /.wrapper -->
+    <footer class="text-center w-100 p-5">
+      <span>&copy; Juracapresso Doctor <script>document.write(new Date().getFullYear())</script></span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
