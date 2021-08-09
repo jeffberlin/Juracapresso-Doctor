@@ -67,7 +67,7 @@ nav {
 	opacity: .6;
 }
 
-.checkout-btn, .form-btn, .card-buy-btn, .card, .cart-btn, .contact-btn, #topcontrol:hover .scrollup-svg-icon {
+.checkout-btn, .form-btn, .card-buy-btn, .card, .cart-btn, .contact-btn, #topcontrol .scrollup-svg-icon {
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
