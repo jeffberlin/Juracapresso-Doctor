@@ -23,14 +23,10 @@
 }
 
 .product-add-btn:hover {
-  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
 }
 
-.product-add-btn:hover, .back-btn:hover {
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
+.product-add-btn, .back-btn {
 	transition: all 0.3s ease;
 }
 

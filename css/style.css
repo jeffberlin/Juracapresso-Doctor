@@ -67,10 +67,7 @@ nav {
 	opacity: .6;
 }
 
-.checkout-btn:hover, .form-btn:hover, .card-buy-btn:hover, .card:hover, .cart-btn:hover, .contact-btn, #topcontrol:hover .scrollup-svg-icon {
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
+.checkout-btn, .form-btn, .card-buy-btn, .card, .cart-btn, .contact-btn, #topcontrol:hover .scrollup-svg-icon {
 	transition: all 0.3s ease;
 }
 
@@ -96,14 +93,12 @@ h2 {
 }
 
 .card {
-  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.20);
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.20);
   border-radius: 20px;
 }
 
 .card:hover {
-	-webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.40);
-  box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.40);
+ box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.40);
 }
 
 .card img {
@@ -129,7 +124,6 @@ h2 {
 }
 
 .card-buy-btn:hover {
-  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
   box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.40);
 }
 
