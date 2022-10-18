@@ -63,11 +63,11 @@ nav {
 	background-color: #F60402;
 }
 
-.checkout-btn:hover, .form-btn:hover {
+.checkout-btn:hover {
 	opacity: .6;
 }
 
-.checkout-btn, .form-btn, .card-buy-btn, .card, .cart-btn, .contact-btn, #topcontrol .scrollup-svg-icon {
+.checkout-btn, .card-buy-btn, .card, .cart-btn, .contact-btn, #topcontrol .scrollup-svg-icon {
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
