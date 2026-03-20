@@ -10,6 +10,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/service-tool-bit.jpg','./images/service-tool-bit-2.jpg'],
       altText: 'Jura Capresso Nespresso Service Tool Bit for Magnetic Handle',
       productid: '39902',
+      cid: '00493M/3'
     },
     {
       title: 'Jura Nespresso Professional Shop Tool Kit - Oval head w/ WIHA Handle & Torx bits',
@@ -19,6 +20,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/shop-tool-kit-oval-head.jpg', './images/shop-tool-kit-oval-head-2.jpg', './images/shop-tool-kit-oval-head-3.jpg', './images/shop-tool-kit-oval-head-4.jpg',],
       altText: 'Jura Nespresso Professional Shop Tool Kit - Oval head w/ WIHA Handle & Torx bits',
       productid: '39912',
+      cid: '00493M/3'
     },
     {
       title: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
@@ -28,6 +30,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/service-repair-key.jpg', './images/service-repair-key-2.jpg', './images/service-repair-key-3.jpg', './images/service-repair-key-4.jpg', './images/service-repair-key-5.jpg'],
       altText: 'Jura Capresso Service Repair Tool Key - Open Security Oval Head Screws',
       productid: '39901',
+      cid: '00493M/3'
     },
     {
       title: 'Jura Capresso OEM Brew Group O-ring set w/Oval Head Service Key Tool',
@@ -37,6 +40,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/o-ring-set-key-tool.jpg', './images/o-ring-set-key-tool-2.jpg'],
       altText: 'Jura Capresso OEM Brew Group O-ring set w/Oval Head Service Key Tool',
       productid: '39910',
+      cid: '00493M/3'
     },
     {
       title: 'Jura Capresso OEM Brew Group O-ring gasket seal set (no service tool)',
@@ -46,6 +50,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/o-ring-set.jpg', './images/o-ring-set-2.jpg'],
       altText: 'Jura Capresso OEM Brew Group O-ring gasket seal set (no service tool)',
       productid: '39909',
+      cid: '00493M/3'
     },
     {
       title: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
@@ -55,6 +60,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/dow-corning-grease.jpg', './images/dow-corning-grease-2.jpg'],
       altText: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
       productid: '39904',
+      cid: '00493M/3'
     },
     {
       title: 'Jura Capresso OEM Cherry D45X Micro Switch (for Grounds/Tray Error)',
@@ -64,6 +70,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/cherry-micro-switch.jpg', './images/cherry-micro-switch-2.jpg'],
       altText: 'Jura Capresso OEM Cherry D45X Micro Switch. Fix EMPTY GROUNDS/TRAY MISSING error',
       productid: '39906',
+      cid: '00493M/3'
     },
     {
       title: 'Espresso brew group O-ring seal grease DOW CORNING MOLYKOTE 111 (3pk)',
@@ -73,6 +80,7 @@ app.controller('appCtrl', function($scope, $document) {
       images: ['./images/dow-corning-grease-3pk.jpg', './images/dow-corning-grease-2.jpg'],
       altText: 'Espresso machine brew group O-ring seal grease DOW CORNING MOLYKOTE 111',
       productid: '39911',
+      cid: '00493M/3'
     },
   ];
 
